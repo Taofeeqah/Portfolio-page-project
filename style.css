@@ -1,109 +1,111 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
- body {
-    width: 100%;
-    font-size: 16px;
+body {
+  width: 100%;
+  font-size: 16px;
   font-family: "GTEestiDisplay-Medium", -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
- }
+}
 
- .background {
-    background-color: rgb(102, 52, 60);
-    padding: 60px;
- }
+.background {
+  background-color: rgb(102, 52, 60);
+  padding: 60px;
+}
 
- .view {
-    margin: auto;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 3px 3px 7px;
- }
+.view {
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px;
+}
 
 .top {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    gap: 33rem;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 33rem;
 }
 
 .list {
-	display: flex;
-	list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 li {
-    padding: 10px 15px;
+  padding: 10px 15px;
 }
 
 .active {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
 }
 
 .intro {
-    display: flex;
-    padding: 30px 150px;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  padding: 30px 150px;
+  width: 100%;
+  align-items: center;
 }
 
-
-
 .img {
-    width: 50%;
+  width: 50%;
 }
 
 img {
-    width: 60%;
-    height: 300px;
-    border-radius: 20px;
+  width: 60%;
+  height: 300px;
+  border-radius: 20px;
 }
 
 .desc {
-    width: 50%;
+  width: 50%;
 }
 
 h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 h2 {
-    font-size: 25px;
-    padding-bottom: 10px;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
 p {
-    font-weight: 400;
-    text-align: justify;
+  font-weight: 400;
+  text-align: justify;
 }
 
 .main {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 30px 150px 100px 150px;
-    gap: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 150px 100px 150px;
+  gap: 40px;
 }
 
 .obj {
-    width: 50%;
+  width: 50%;
 }
 
 .skills {
-    width: 50%;
+  width: 50%;
 }
 
 td {
-    border: 0.5px solid rgb(189, 187, 187);
-    padding: 3px;
-    border-radius: 5px;
-    text-align: center;
+  border: 0.5px solid rgb(189, 187, 187);
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
 }
